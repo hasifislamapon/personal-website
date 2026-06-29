@@ -1,47 +1,191 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul,ol{
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
 }
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
-    line-height: 0.9;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.9;
 }
-.navbar{
-    background: #1E1E1E;
-    padding: 20px 0;
-}.nav-link{
-    color: #959595 !important;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin: 0 20px;
-    transition: color 0.3s;
+.navbar {
+  background: #1e1e1e;
+  padding: 20px 0;
+}
+.nav-link {
+  color: #959595 !important;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  transition: color 0.3s;
 }
 .nav-item:first-child .nav-link {
-  color: #FD6F00 !important;
+  color: #fd6f00 !important;
   font-weight: bold;
 }
-.nav-link:hover{
-    color: #FD6F00 !important;
-
+.nav-link:hover {
+  color: #fd6f00 !important;
 }
-.button{
-    padding: 12px 40px;
-    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
-    color: #ffffff;
-    font-family: "Lato", sans-serif;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 700;
+.button {
+  padding: 12px 40px;
+  background: linear-gradient(to right, #fd6f00 0%, #e46400 100%);
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
+/* banner part Start */
+
+#bannerPart {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #1e1e1e;
+}
+
+.bannerContent h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 3%;
+  color: #707070;
+  padding-bottom: 8px;
+}
+
+.bannerContent h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 3%;
+  color: #959595;
+  padding-bottom: 24px;
+}
+
+.bannerContent h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  letter-spacing: 3%;
+  background: linear-gradient(90deg, #984300 0%, #fd6f00 46%, #ca5900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  padding-bottom: 25px;
+}
+
+
+.socialIcon {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 40px;
+}
+
+.socialIcon a {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #575757;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.socialIcon a:hover {
+  background-color: #575757;
+  border-color: #575757;
+  color: #ffffff
+}
+
+.bannerBtn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.mybtn {
+  padding: 12px 40px;
+  background: linear-gradient(to right, #fd6f00 0%, #e46400 100%);
+  color: #ffffff !important;
+  font-family: "Lato", sans-serif;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-download {
+  padding: 12px 35px;
+  border: 1px solid #ffffff;
+  color: #ffffff !important;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn-download:hover {
+  background-color: #ffffff;
+  color: #1e1e1e !important;
+}
+
+.statsBox {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 25px 35px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.statsItem h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd6f00;
+  margin-bottom: 5px;
+}
+
+.statsItem p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #DFDFDF;
+  margin: 0;
+}
+
+.bannerImage img {
+  filter: grayscale(0%);
+  transition: filter 0.4s;
+}
+
+.bannerImage:hover img {
+  filter: grayscale(100%);
+}
+
+/* banner part end */
