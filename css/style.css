@@ -56,8 +56,12 @@ p {
 
 #bannerPart {
   padding-top: 100px;
-  padding-bottom: 100px;
+
   background: #1e1e1e;
+}
+.bannerContent {
+  padding-top: 236px;
+  padding-bottom: 106px;
 }
 
 .bannerContent h4 {
@@ -66,7 +70,6 @@ p {
   font-size: 24px;
   letter-spacing: 3%;
   color: #707070;
-  padding-bottom: 8px;
 }
 
 .bannerContent h2 {
@@ -75,6 +78,7 @@ p {
   font-size: 28px;
   letter-spacing: 3%;
   color: #959595;
+  padding-top: 10px;
   padding-bottom: 24px;
 }
 
@@ -88,95 +92,76 @@ p {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  padding-bottom: 25px;
+  padding-bottom: 17px;
 }
-
-
 .socialIcon {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   padding-bottom: 40px;
 }
-
 .socialIcon a {
-  width: 50px;
-  height: 50px;
   border: 2px solid #575757;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.socialIcon a:hover {
-  background-color: #575757;
-  border-color: #575757;
-  color: #ffffff
-}
-
-.bannerBtn {
-  display: flex;
-  gap: 20px;
   align-items: center;
-  padding-bottom: 50px;
+  background: transparent;
+  opacity: 0.4;
+  color: #fff;
+  transform: 0.4s;
 }
-
-.mybtn {
-  padding: 12px 40px;
-  background: linear-gradient(to right, #fd6f00 0%, #e46400 100%);
-  color: #ffffff !important;
-  font-family: "Lato", sans-serif;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 700;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.btn-download {
-  padding: 12px 35px;
-  border: 1px solid #ffffff;
-  color: #ffffff !important;
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: 0.3s;
-  display: inline-block;
-}
-
-.btn-download:hover {
-  background-color: #ffffff;
-  color: #1e1e1e !important;
-}
-
-.statsBox {
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 12px;
-  padding: 25px 35px;
-  
-  display: flex;
-  justify-content: space-between;
-}
-
-.statsItem h2 {
-  font-size: 20px;
-  font-weight: 700;
+.socialIcon a:hover {
   color: #fd6f00;
-  margin-bottom: 5px;
 }
 
-.statsItem p {
-  font-size: 15px;
+.bannerbtn a {
+  padding: 12px 40px;
+  background: #fd6f00;
+  border-radius: 8px;
+  color: #fff;
+  margin-right: 24px;
+}
+.bannerbtn a:hover {
+  color: #dfdfdf;
+}
+
+.lowerpartContent {
+  padding: 24px;
+  background: rgb(36, 35, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.lowerpartContent .box {
   font-weight: 700;
-  color: #DFDFDF;
-  margin: 0;
+  font-size: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 30px;
+  margin-right: 35px;
+  border-right: 2px solid #959595;
+  color: #dfdfdf;
+  box-shadow: #959595;
+}
+.lowerpartContent .boxx {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 6px;
+  color: #dfdfdf;
+}
+.lowerpartContent h2 {
+  font-weight: 800;
+  font-size: 26px;
+  color: #fd6f00;
+  letter-spacing: 3%;
+  line-height: 100%;
+  padding-bottom: 5px;
 }
 
 .bannerImage img {
@@ -189,3 +174,65 @@ p {
 }
 
 /* banner part end */
+
+/* Service Part start */
+
+#servicePart {
+  background-color: #1e1e1e;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.serviceHead {
+  padding-bottom: 80px;
+}
+
+.serviceHead h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.serviceHead p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #959595;
+  line-height: 1.6;
+}
+
+.serviceCard {
+  padding: 34px 30px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 24px;
+  margin-bottom: 40px;
+  transition: 0.4s;
+}
+
+.serviceCard:hover {
+  box-shadow:  rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.serviceCard h3 {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 120%;
+  color: #fd6f00;
+  margin: 0;
+}
+
+.serviceCard p {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 160%;
+  color: #959595;
+  margin: 0;
+}
+
+/* Service Part End  */
