@@ -1,0 +1,63 @@
+/* Extra small devices */
+@media (max-width: 575.98px) {
+.mobileBar{
+    color: aqua;
+    font-size: 28px;
+}
+.navbar-nav{
+    background: lightseagreen;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+.button{
+    display: none;
+}
+.bannerContent{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.bannerContent h1{
+    font-size: 50px;
+}
+.socialIcon{
+    justify-content: center;
+}
+.bannerImage{
+    display: none;
+}
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.mobileBar{
+    color: red;
+    font-size: 28px;
+}
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.mobileBar{
+    color: yellow;
+    font-size: 28px;
+}    
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.mobileBar{
+    color: white;
+    font-size: 28px;
+}
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+.mobileBar{
+    color: greenyellow;
+    font-size: 28px;
+}
+}
